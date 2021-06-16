@@ -1,0 +1,174 @@
+body {
+    background-color: #235076;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+
+.searchInput {
+    background-color: rgb(58, 56, 56);
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 5px;
+    border: gray;
+}
+
+.textcolor {
+    color: white;
+    font-size: small;
+}
+
+.searchLinks {
+    color: yellow;
+    font-weight: normal;
+    font-size: small;
+}
+
+#submitSearch {
+    background-color: #235076;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 2px 2px #313030;
+    color: honeydew;
+    padding: 10px;
+    margin: 5px;
+}
+
+#searchBox {
+    padding: 10px;
+    text-align: center;
+}
+
+.textSizing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav {
+    background-color: #6495ed;
+    display: flex;
+    align-items: center;
+}
+
+.navigation ul {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    flex: 1;
+    list-style: none;
+    background-color: #477fad;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 2px 2px #1d1c1c;
+    border-radius: 5px;
+    color: white;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: white;
+}
+
+.arrow {
+    font-size: 7px;
+    color: yellow;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+.linkcenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 8px;
+}
+
+.Subcontent {
+    display: flex;
+    justify-content: space-between space-around;
+    background-color: whitesmoke;
+    padding: 0px 100px 0px 110px;
+}
+
+.sidePanelSection {
+    width: 300px;
+}
+
+.sidePanelSection li {
+    color: white;
+    padding: 5px;
+}
+
+.sidePanelSection a {
+    color: white;
+}
+
+.sidePanel {
+    color: white;
+}
+
+.ContentSection {
+    flex-basis: 600px;
+}
+
+.contentStyle {
+    color: yellow;
+    font-size: 20px;
+    font-style: italic;
+    margin: 5px;
+}
+
+.subContentTxt {
+    text-align: center;
+    padding: 20px;
+}
+
+.subContentTxt li {
+    text-align: center;
+    color: rgb(136, 174, 231);
+    width: 230px;
+}
+
+hr {
+    height: 3px;
+    background: rgb(129, 166, 248);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(123, 162, 206);
+    padding: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(123, 162, 206);
+    padding: 0px 0px 0px 30px;
+}
+
+small {
+    color: rgb(123, 162, 206);
+    display: block;
+    text-align: center;
+}
+
+.testPanelSection {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style-position: inside;
+}
